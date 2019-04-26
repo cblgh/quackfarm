@@ -1,0 +1,20 @@
+{
+  "name": "quackfarm",
+  "version": "1.0.0",
+  "description": "quack over websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quack",
+    "websocket",
+    "ws"
+  ],
+  "author": "cblgh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ws": "^6.2.1"
+  }
+}
