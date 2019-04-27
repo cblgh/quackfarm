@@ -15,5 +15,5 @@ app.get('/', function (req, res) {
 
 app.post('/quack', function (req, res) {
   farm.sendQuack()
-  res.sendStatus(200)
+  res.send(`we've got ${farm.count()} roaming`)
 })

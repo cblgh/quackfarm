@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const WebSocket = require('ws')
 if (process.argv.length <= 2) {
   console.log('i need a quackfarm link, give it to me!')
